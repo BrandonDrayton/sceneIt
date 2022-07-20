@@ -1,0 +1,153 @@
+body {
+	style: none;
+	background-color: #415557;
+	background-image: url("film.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.header h2 {
+	color: #c9dcdd;
+}
+
+.header p {
+	color: #8ea7a8;
+}
+
+.scene-it {
+	text-decoration: none;
+}
+
+.watchlist-link {
+	text-decoration: none;
+	color: #415557;
+}
+
+.watchlist-link:hover {
+	color: #415557;
+}
+
+.scene-it-link {
+	text-decoration: none;
+	color: #415557;
+}
+
+.scene-it-link:hover {
+	color: #415557
+}
+
+.search-list-button {
+	background-color: #8ea7a8;
+	border-radius: 1em;
+
+}
+
+.watchlist-button {
+	background-color: #8ea7a8;
+	border-radius: 1em;
+	margin-bottom: 1em;
+	border: none;
+	width: 15%;
+	height: 15%;
+	margin-bottom: 2em;
+}
+
+.watchlist-button:hover {
+	box-shadow: inset 13em 0 0 0 #6e9da1;
+	color: #2b7980
+}
+
+.scene-it-list-button {
+	background-color: #8ea7a8;
+	border-radius: 1em;
+	margin-bottom: 1em;
+	border: none;
+	width: 15%;
+	height: 20%;
+	margin-bottom: 2em;
+}
+
+.scene-it-list-button:hover {
+	box-shadow: inset 13em 0 0 0 #6e9da1;
+	color: #2b7980
+}
+
+.input-group-btn {
+	background-color: #8ea7a8;
+	border: none;
+	border-radius: 0.5em;
+}
+
+.input-group-btn:hover {
+	box-shadow: inset 13em 0 0 0 #6e9da1;
+	color: #2b7980
+}
+
+.card-body {
+	background-color: #c9dcdd;
+	border: none
+}
+
+.card-movie {
+	background-color: #c9dcdd;
+}
+
+.card-img-top {
+	max-height: 25em;
+}
+
+
+.search-bar {
+	background-color: #c9dcdd;
+	border: none;
+}
+
+.search-bar-placeholder {
+	color: black
+}
+
+.form-control::placeholder {
+	color: rgb(0, 0, 0);
+	opacity: 1;
+}
+
+.form-control:focus {
+	outline-color: #8ea7a8;
+}
+
+
+.card {
+	border: none;
+	transition: all .2s ease-in-out;
+}
+
+.card:hover {
+	transform: scale(1.1);
+
+
+}
+
+.add-button {
+	background-color: #8ea7a8;
+
+}
+
+.delete-button {
+	background-color: #8ea7a8;
+}
+
+.add-button:hover {
+	box-shadow: inset 13em 0 0 0 #415557;
+	color: #e1ebec
+}
+
+.delete-button:hover {
+	box-shadow: inset 13em 0 0 0 #415557;
+	color: #e1ebec
+}
+
+.body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100%;
+}
